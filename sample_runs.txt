@@ -1,0 +1,46 @@
+--- Sample Run 1: Manual entry ---
+Menu: choose 1 -> manual
+How many students will you enter? 5
+Name of student 1: Alice
+Mark for Alice: 78
+Name of student 2: Bob
+Mark for Bob: 92
+Name of student 3: Charlie
+Mark for Charlie: 55
+Name of student 4: Deepa
+Mark for Deepa: 40
+Name of student 5: Esha
+Mark for Esha: 35
+
+=== Analysis Summary ===
+Students analysed: 5
+Average: 60.00 | Median: 55.00 | Min: 35.0 | Max: 92.0
+
+Grade distribution:
+A: 1
+B: 1
+C: 1
+D: 1
+F: 1
+
+Passed (4): Alice, Bob, Charlie, Deepa
+Failed (1): Esha
+
+Name                Marks     Grade
+----------------------------------------
+Alice               78.0      C
+Bob                 92.0      A
+Charlie             55.0      C
+Deepa               40.0      D
+Esha                35.0      F
+Saved to results.csv
+
+--- Sample Run 2: CSV load ---
+Choose 2 -> students.csv
+Loaded 6 students (example)
+... summary printed ...
+
+--- Sample Run 3: Small class and exit ---
+Manual 2 students: John 85, Mary 91
+Summary: Average 88.0, A:1, B:1
+Exit
