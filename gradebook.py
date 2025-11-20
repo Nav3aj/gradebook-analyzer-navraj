@@ -1,9 +1,9 @@
 """
 Gradebook Analyzer (simple)
-Author: NavraJ Amgai
+Author: Navraj Amgai
 Date: 2025-11-20
 Course: ETCCPP102 - Programming for Problem Solving Using Python
-Signature: By NavraJ Amgai
+Signature: By Navraj Amgai
 Description:
 Simple CLI tool to enter student marks manually or load from CSV,
 compute mean/median/min/max, assign letter grades, list pass/fail,
@@ -106,7 +106,7 @@ def main():
                 print("No valid data loaded from CSV.")
                 continue
         elif choice == '3':
-            print("Exiting Gradebook Analyzer. By NavraJ Amgai")
+            print("Exiting Gradebook Analyzer. By Navraj Amgai")
             break
         else:
             print("Please choose 1, 2 or 3.")
@@ -155,8 +155,9 @@ def main():
 
         cont = input("\nRun again? (y/n): ").lower()
         if cont != 'y':
-            print("Done. By NavraJ Amgai")
+            print("Done. By Navraj Amgai")
             break
 
 if __name__ == "__main__":
     main()
+
