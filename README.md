@@ -1,6 +1,6 @@
 # Gradebook Analyzer
 
-**Author:** NavraJ Amgai  
+**Author:** Navraj Amgai  
 **Date:** 2025-11-20  
 **Course:** ETCCPP102 - Programming for Problem Solving Using Python
 
@@ -15,4 +15,5 @@ CLI tool to load student marks manually or from CSV, compute average/median/min/
 ## How to run
 1. Put `gradebook.py` and optionally `students.csv` in the same folder.
 2. Run:
+
 
