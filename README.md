@@ -11,8 +11,8 @@ CLI tool to load student marks manually or from CSV, compute average/median/min/
 - `gradebook.py` — main program
 - `students.csv` — example input CSV (optional)
 - `sample_runs.txt` — sample runs demonstrating program output
-- `results.csv` — (optional) saved output from program
 
 ## How to run
 1. Put `gradebook.py` and optionally `students.csv` in the same folder.
 2. Run:
+
